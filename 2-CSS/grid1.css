@@ -1,0 +1,24 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+    display: inline-grid;
+    /*grid-template-rows: 62.5px 62.5px 62.5px 62.5px 62.5px 62.5px 62.5px 62.5px;
+    grid-template-columns: 125px 125px 125px 125px;*/
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px 10px;
+    /*justify-items: center;
+    align-items: center;*/
+    place-items: center;
+}
+.item{
+    height: 50px; 
+    width: 100px;
+    background-color: darkorange;
+    text-align: center;
+    border: 2px solid black;
+}
+

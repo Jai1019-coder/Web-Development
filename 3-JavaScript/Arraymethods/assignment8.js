@@ -1,0 +1,17 @@
+// // // // let num = [1,3,5,6,9];
+// // // // let square = num.map(num => num*num);
+// // // // let sum = square.reduce((acc, curr) => acc+curr, 0);
+// // // // let avg = sum/num.length;
+// // // // console.log(avg);
+// // // let orgarr = [2,4,6,7,8,9];
+// // // let newarr = orgarr.map(n => n+5);
+// // // console.log(newarr);
+// // let strings = ["Bob","Silk","Physics","Piegon","Scala"];
+// // let newstrings = strings.map(n => n.toUpperCase());
+// // console.log(newstrings);
+// let doubleAndReturnArgs = (arr, ...args) => [...arr, ...args.map(n => n*2)];
+// let ans = doubleAndReturnArgs([1,2,3,4],5,6);
+// console.log(ans);
+let mergeobjects = (obj1,obj2) => ({...obj1,...obj2});
+let merge = mergeobjects({a : 1, b : 2},{c : 3, d : 4});
+console.log(merge);

@@ -1,0 +1,99 @@
+body{
+    background-color: #ff1b7b;
+    
+}
+@font-face {
+    font-family: squidgamefont;
+    src: url(fonts/GameOfSquids-1GMVL.ttf);
+}
+h1{
+    font-family: squidgamefont;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.886);
+    font-size: 70px;
+}
+img{
+    position: absolute;
+    height: 20vh;
+    width: 20vw;
+    left: 40vw;
+    top: 10vh;
+}
+.main-container{
+    height: 40vh;
+    width: 40vw;
+    margin: 20vh auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 1em;
+    border: none;
+}
+.text-area{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.from{
+    height: 100%;
+    width: 100%;
+    border-right: 5px solid black;
+}
+.to{
+    height: 100%;
+    width: 100%;
+}
+textarea{
+    height: 100%;
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    /* background-color: rgba(255, 255, 255, 0.879); */
+    background-color: white;
+    font-family: squidgamefont;
+    color: rgb(3,122,118);
+    font-size: 1em;
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.left-select{
+    width : 30%;
+    display: flex;
+}
+.left-select select{
+    width: 40%;
+    border: none;
+    outline: none;
+}
+.left-select i{
+    margin-left: 1em;
+}
+.right-select{
+    width : 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right-select select{
+    width: 40%;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.879);
+}
+.right-select i{
+    margin-right: 1em;
+}
+select{
+    border: none;
+    outline: none;
+    color: rgb(3,122,118);
+}
+i{
+    color: rgb(3,122,118);
+}
+

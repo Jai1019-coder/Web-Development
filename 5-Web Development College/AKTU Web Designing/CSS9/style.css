@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Link styles with different states */
+a:link {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:visited {
+    color: #8e44ad;
+}
+
+a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #c0392b;
+}
+
+/* Typography */
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.8em;
+    color: #34495e;
+}
+
+/* Content container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Feature section with different background */
+.feature {
+    background-image: url('feature-bg.jpg');
+    background-size: 10%;
+    background-repeat: repeat;
+    padding: 2em;
+    margin: 1em 0;
+    border-radius: 8px;
+}

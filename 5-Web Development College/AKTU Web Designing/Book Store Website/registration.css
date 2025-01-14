@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-frame {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-frame .logo img {
+    height: 50px;
+}
+
+.top-frame .site-name {
+    flex: 1;
+    text-align: center;
+}
+
+.top-frame .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.left-frame {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    float: left;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.left-frame nav a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.main-frame {
+    margin-left: 200px;
+    padding: 2rem;
+}
+
+.registration-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.registration-form label {
+    display: inline-block;
+    width: 150px;
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form textarea {
+    padding: 5px;
+    width: calc(100% - 160px);
+    margin-bottom: 1rem;
+}
+
+.dob-container {
+    display: flex;
+    gap: 10px;
+}
+
+.dob-container select {
+    flex: 1;
+}
+
+.languages-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.registration-form .submit-btn,
+.registration-form .reset-btn {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0.5rem 0 0;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.registration-form .submit-btn:hover,
+.registration-form .reset-btn:hover {
+    background-color: #555;
+}

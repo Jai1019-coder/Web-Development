@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}   
+.contentcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}

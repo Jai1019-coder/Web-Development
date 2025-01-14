@@ -1,0 +1,24 @@
+.box{
+    height: 100px;
+    width: 300px;
+    color: white;
+    background-color: pink;
+    animation: widthanimation 2s ease-in 0s infinite alternate;
+}
+@keyframes widthanimation{
+    0%{
+        width: 300px;
+        background-color: pink;
+        font-size: 20px;
+    }
+    50%{
+        width: 600px;
+        background-color: green;
+        font-size: 80px;
+    }
+    100%{
+        width: 900px;
+        background-color: red;
+        font-size: 100px;
+    }
+}

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-frame {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-frame .logo img {
+    height: 50px;
+}
+
+.top-frame .site-name { 
+    flex: 1;
+    text-align: center;
+}
+
+.top-frame .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.left-frame {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    float: left;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.left-frame nav a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.main-frame {
+    margin-left: 200px;
+    padding: 2rem;
+}
+
+.main-frame p {
+    font-size: 1.2rem;
+}
